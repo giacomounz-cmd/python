@@ -1,1 +1,1 @@
-# python
+# corso per python
