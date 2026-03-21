@@ -1,3 +1,3 @@
 # corso per python
-#da discord programming class
+da discord programming class
 
