@@ -60,7 +60,9 @@ class Player:
         "mana":self.razza["mana"],
         "abilita":self.razza["abilita"]
         }
-    def danno(self,quantità_danno):
+        self.inventario=None
+
+    def danno_ricevuto(self,quantità_danno):
         self.stats_player["hp"] -=quantità_danno
     
     def cura(self,quantità_cura):
@@ -87,6 +89,13 @@ class Player:
             
 
         return self.stats_player["abilita"][scelta-1][scelta2],scelta2
+    
+    def inventario(self,item):
+        self.inventario.append(item)
+
+
+
+    
 
     
 

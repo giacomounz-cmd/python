@@ -18,7 +18,7 @@ class arduino(Enemy):
 class sigmaboy(Enemy):
 
     def __init__(self):
-        super().__init__(nome="er sigma",hp=50,danno=35,move="ululato_nigga")
+        super().__init__(nome="er sigma",hp=50,danno=35,move="ululato_raccapriciante")
 
 
 
